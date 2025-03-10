@@ -1,15 +1,32 @@
+/* styles.css */
+
+/* Aseguramos que el contenido del iframe se ajuste correctamente */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 .installments-info {
     font-size: 14px;
     color: #333;
-    font-weight: bold;
+    padding: 10px;
+    font-weight: 400;
+    font-family: chivo;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 0;
 }
+
 td {
     padding: 5px;
 }
+
 img {
     max-width: 100%;
     height: auto;
