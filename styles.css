@@ -1,0 +1,16 @@
+.installments-info {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
