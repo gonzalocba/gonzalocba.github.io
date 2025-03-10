@@ -17,6 +17,14 @@ body {
     font-family: 'Chivo', sans-serif;
 }
 
+.whynot {
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'Chivo', sans-serif;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
