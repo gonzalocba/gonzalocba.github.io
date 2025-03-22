@@ -53,3 +53,10 @@ img {
 	font-size: 14px;
 	text-align: left;
 }
+
+.line-before::before {
+	content: "";
+	display: block;
+	border-top: 2px solid #ccc;
+	margin-bottom: 15px;
+}
