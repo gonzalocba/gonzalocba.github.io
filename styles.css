@@ -47,31 +47,6 @@ img {
 	background-color: #fff;
 }
 
-.pie {
-    width: 100% !important;
-    height: 280px !important;
-    border: none;
-    display: block;
-    overflow: hidden;
-}
-
-
-/* Para móviles */
-@media (max-width: 768px) {
-    .pie {
-        height: 200px; /* Reduce la altura en pantallas pequeñas */
-    }
-}
-
-/* Para pantallas grandes */
-@media (min-width: 1200px) {
-    .pie {
-        height: 350px; /* Aumenta la altura en pantallas grandes */
-    }
-}
-
-
-
 
 .whynot {
     font-size: 14px;
@@ -105,7 +80,7 @@ img {
 .titulo {
 	width: 98%;
 	font-family: Chivo, sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	white-space: normal;
 	padding: 10px 0px 18px 0px;
 }
