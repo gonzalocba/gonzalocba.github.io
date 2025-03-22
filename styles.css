@@ -41,27 +41,27 @@ img {
 	background-color: #fff;
 }
 
-.installments-info iframe {
-    width: 100%; /* Mantiene el ancho completo */
-    height: 280px; /* Altura base */
+.pie {
+    width: 100%;
+    height: 280px;
     border: none;
-    overflow: hidden;
     display: block;
 }
 
-/* Para móviles */
+/* Ajustes para móviles */
 @media (max-width: 768px) {
-    .installments-info iframe {
-        height: 200px; /* Reduce la altura en pantallas pequeñas */
+    .pie {
+        height: 200px;
     }
 }
 
-/* Para pantallas grandes */
+/* Ajustes para pantallas grandes */
 @media (min-width: 1200px) {
-    .installments-info iframe {
-        height: 350px; /* Aumenta la altura en pantallas grandes */
+    .pie {
+        height: 350px;
     }
 }
+
 
 
 
