@@ -2,6 +2,12 @@
 /* styles.css */
 
 /* Aseguramos que el contenido del iframe se ajuste correctamente */
+
+html, body {
+    height: auto;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -41,7 +47,7 @@ img {
 	background-color: #fff;
 }
 
-.installments-info iframe {
+.pie {
     width: 100% !important;
     height: 280px !important;
     border: none;
@@ -51,14 +57,14 @@ img {
 
 /* Para móviles */
 @media (max-width: 768px) {
-    .installments-info iframe {
+    .pie {
         height: 200px; /* Reduce la altura en pantallas pequeñas */
     }
 }
 
 /* Para pantallas grandes */
 @media (min-width: 1200px) {
-    .installments-info iframe {
+    .pie {
         height: 350px; /* Aumenta la altura en pantallas grandes */
     }
 }
