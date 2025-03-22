@@ -60,3 +60,10 @@ img {
 	border-top: 2px solid #ccc;
 	margin-bottom: 15px;
 }
+
+.detail-cell {
+	width: 98%;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-align: justify;
+	background-color: #fff;
+}
