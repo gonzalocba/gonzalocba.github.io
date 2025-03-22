@@ -52,6 +52,7 @@ img {
     height: 280px !important;
     border: none;
     display: block;
+    overflow: hidden;
 }
 
 
