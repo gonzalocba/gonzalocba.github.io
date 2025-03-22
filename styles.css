@@ -76,73 +76,7 @@ img {
 	white-space: normal;
 	padding: 10px 0px 18px 0px;
 }
-/* styles.css */
 
-/* Aseguramos que el contenido del iframe se ajuste correctamente */
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-}
 
-.installments-info {
-    font-size: 14px;
-    font-weight: 400;
-    padding: 5px 0px 0px 10px;
-    font-family: 'Chivo', sans-serif;
-}
 
-.whynot {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Chivo', sans-serif;
-    text-align: justify;
-}
-
-table {
-    width: 100%;
-    max-width: 100%;
-    border-collapse: collapse;
-    margin: 0;
-}
-
-td {
-    padding: 0px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.carrito {
-	width: 98%;
-	font-family: Chivo, sans-serif;
-	font-size: 14px;
-	white-space: normal;
-	padding: 20px 0px 18px 0px;
-}
-
-.whatsapp {
-	width: 95%;
-	font-family: Chivo, sans-serif;
-	font-size: 14px;
-	text-align: left;
-}
-
-.line-before::before {
-	content: "";
-	display: block;
-	border-top: 2px solid #ccc;
-	margin-bottom: 15px;
-}
-
-.detail-cell {
-	width: 98%;
-	font-family: "Open Sans", Arial, sans-serif;
-	text-align: justify;
-	background-color: #fff;
-}
 
