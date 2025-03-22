@@ -57,7 +57,7 @@ img {
 
 .carrito {
 	width: 98%;
-	font-family: Chivo, sans-serif;
+	font-family: 'Chivo', sans-serif;
 	font-size: 14px;
 	white-space: normal;
 	padding: 20px 0px 18px 0px;
@@ -65,7 +65,7 @@ img {
 
 .whatsapp {
 	width: 95%;
-	font-family: Chivo, sans-serif;
+	font-family: 'Chivo', sans-serif;
 	font-size: 14px;
 	text-align: left;
 }
@@ -79,7 +79,7 @@ img {
 
 .titulo {
 	width: 98%;
-	font-family: Chivo, sans-serif;
+	font-family: 'Chivo', sans-serif;
 	font-size: 16px;
 	white-space: normal;
 	padding: 10px 0px 18px 0px;
@@ -87,7 +87,7 @@ img {
 
 .consulta {
 	width: 98%;
-	font-family: Chivo, sans-serif;
+	font-family: 'Chivo', sans-serif;
 	font-size: 17px;
 	white-space: normal;
 	padding: 10px 0px 18px 0px;
