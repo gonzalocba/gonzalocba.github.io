@@ -92,6 +92,10 @@ img {
 	margin-bottom: 5px;
 }
 
+.banner {
+	padding: 10px 0px 18px 0px;
+}
+
 .titulo {
 	width: 95%;
 	font-family: 'Chivo', sans-serif;
