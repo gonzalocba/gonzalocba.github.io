@@ -85,7 +85,7 @@ img {
 	margin-bottom: 15px;
 }
 
-.line-before1::before {
+.line1::before {
 	content: "";
 	display: block;
 	border-top: 2px solid #ccc;
