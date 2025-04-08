@@ -23,38 +23,51 @@ body {
     font-family: 'Chivo', sans-serif;
 }
 
-
-table {
+  /* Aplica a todas las tablas */
+  table {
     background-color: transparent !important;
     color: #fff !important;
-    border-collapse: collapse;
     width: 100%;
+    border-collapse: collapse;
   }
 
+  /* Aplica a todas las celdas y cabeceras */
   table td, table th {
     background-color: transparent !important;
     color: #fff !important;
     font-family: 'Chivo', sans-serif;
     font-size: 14px;
-    padding: 8px;
+    padding: 10px;
+    border: none;
   }
 
-  /* Quitar fondo blanco de spans inline (muy común en editores visuales) */
+  /* Aplica a clases específicas usadas en tu contenido */
+  .detail-cell,
+  .installments-info,
+  .atributos,
+  .entrega {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+
+  /* Si hay spans con fondo blanco embebido en HTML */
   span {
     background-color: transparent !important;
     color: #fff !important;
   }
 
-  /* Asegurarse que todas estas clases internas también hereden transparencia y color */
-  .detail-cell,
-  .installments-info,
-  .atributos,
-  .entrega,
-  .description,
-  .product-details {
-    background-color: transparent !important;
-    color: #fff !important;
+  /* Opcional: imágenes full ancho responsivas */
+  table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
+
+  /* Opcional: sombras de texto para mejor visibilidad en fondo negro */
+  table td, table th, span {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  }
+
 
 img {
     max-width: 100%;
