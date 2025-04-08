@@ -50,7 +50,8 @@ table {
   .installments-info,
   .atributos,
   .entrega,
-  .description {
+  .description,
+  .product-details {
     background-color: transparent !important;
     color: #fff !important;
   }
