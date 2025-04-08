@@ -25,19 +25,35 @@ body {
 
 
 table {
-    width: 100%;
-    max-width: 100%;
+    background-color: transparent !important;
+    color: #fff !important;
     border-collapse: collapse;
-    margin: 0;
-	background-color: #000;
-	color: #fff;
-}
+    width: 100%;
+  }
 
-table td,
-table th {
-  background-color: inherit;
-  color: inherit;
-}
+  table td, table th {
+    background-color: transparent !important;
+    color: #fff !important;
+    font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* Quitar fondo blanco de spans inline (muy común en editores visuales) */
+  span {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+
+  /* Asegurarse que todas estas clases internas también hereden transparencia y color */
+  .detail-cell,
+  .installments-info,
+  .atributos,
+  .entrega,
+  .description {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
 
 img {
     max-width: 100%;
