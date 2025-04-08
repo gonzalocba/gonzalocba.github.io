@@ -26,7 +26,7 @@ body {
   /* Aplica a todas las tablas */
   table {
     background-color: transparent !important;
-    /*color: #fff !important;*/
+    color: #fff !important;
     width: 100%;
     border-collapse: collapse;
   }
@@ -34,7 +34,7 @@ body {
   /* Aplica a todas las celdas y cabeceras */
   table td, table th {
     background-color: transparent !important;
-    /*color: #fff !important;*/
+    color: #fff !important;
     font-family: 'Chivo', sans-serif;
     font-size: 14px;
     border: none;
@@ -47,7 +47,7 @@ body {
   .entrega,
   .product-details {
     background-color: transparent !important;
-    /*color: #fff !important;*/
+    color: #fff !important;
   }
 
   /* Si hay spans con fondo blanco embebido en HTML */
