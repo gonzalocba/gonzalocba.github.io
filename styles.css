@@ -45,7 +45,8 @@ body {
   .detail-cell,
   .installments-info,
   .atributos,
-  .entrega {
+  .entrega,
+  .product-details {
     background-color: transparent !important;
     color: #fff !important;
   }
