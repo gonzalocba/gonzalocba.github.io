@@ -29,10 +29,14 @@ table {
     max-width: 100%;
     border-collapse: collapse;
     margin: 0;
+	background-color: #000;
+	color: #fff;
 }
 
-td {
-    padding: 0px;
+table td,
+table th {
+  background-color: inherit;
+  color: inherit;
 }
 
 img {
