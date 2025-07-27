@@ -67,11 +67,11 @@ body {
     display: block;
   }
 
-  /* Opcional: sombras de texto para mejor visibilidad en fondo negro */
+  /* Opcional: sombras de texto para mejor visibilidad en fondo negro 
   table td, table th, span {
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
   }
-
+  */
 
 img {
     max-width: 100%;
