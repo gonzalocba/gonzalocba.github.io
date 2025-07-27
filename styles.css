@@ -45,7 +45,11 @@ body {
   .installments-info,
   .atributos,
   .entrega,
-  .product-details {
+  .product-details,
+  .whatsapp,
+  .carrito,
+  .titulo,
+  .consulta {
     background-color: transparent !important;
     color: #000000 !important;
   }
